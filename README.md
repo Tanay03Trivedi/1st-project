@@ -70,9 +70,13 @@ connect the private IP host and deploy webserver
  - need a security group for that
  - select the operating system
  - select the instance type   
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/657d9a3b-7927-41f6-8fd7-c1ed749fb806)
+![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/d84847f9-4b41-4088-adc0-8fbca74f1604)
 
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/d2c5edbd-a152-4cab-8aea-e2609242fbd4)
+                                     launch options
+   - select the project vpc and 2 private subnets (private-1a,private-1b)
+
+![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/bd6062de-7089-4ac2-880d-81bc0549ea00)
+
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/265b688e-6236-466b-8326-c9600377fdeb)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/a48189f9-45a4-4638-b576-375b628c3188)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/cabf92bd-e605-485a-b03f-95573c5738f2)
