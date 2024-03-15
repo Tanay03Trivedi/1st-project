@@ -1,4 +1,53 @@
 ![Untitled](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5b7a4b59-14e8-469f-9454-55535587b7ac)
+
+- Step – 1 
+
+create vpc with (2 private , 2 public ) subnets in different availability zones ,2 Nat gateway in different availability zone ,one internet gateway
+
+- step – 2
+
+go to auto scaling group
+
+ create auto scaling group
+
+ create launch template
+ 
+ select os
+ 
+ select instance type
+
+ create security group in created vpc  and select in launch template
+
+ select launch template
+
+ in instance launch options select vpc and private subnets and zones
+
+ in advanced option select a application load balancer – internet facing
+
+ in group size desired capacity 1 scaling limit 1 max desired capacity 1 no scaling
+ 
+ policy ,no instance maintenance policy
+
+ review the configuration and create auto scaling group
+
+- step - 3
+
+ create 2 instance as bastion host
+- step - 4
+
+connect the private ip host and deploy webserver
+ - step -5
+
+ register the private subnet instance in load balancer
+ - step – 6
+ 
+ copy dns name and test for replay from both webserver
+
+
+
+
+![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/7afefd69-43cb-470d-a42c-c90fe4992f99)
+
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/ba508f46-dfc6-4115-b56f-2eb753fb798a)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/f253d28f-ef6a-4e16-af5e-2efac26ea85d)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/edde81c7-4ed4-49fe-97ca-a9cbfb6792dd)
