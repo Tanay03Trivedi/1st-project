@@ -77,7 +77,15 @@ connect the private IP host and deploy webserver
 
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/bd6062de-7089-4ac2-880d-81bc0549ea00)
 
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/265b688e-6236-466b-8326-c9600377fdeb)
+                                     A new load balancer
+   - internet-facing
+   - project vpc
+   - 2 public subnets
+                                  
+![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5bdaa519-d5f0-459b-8e4c-fc872ae117e6)
+
+                                      Group size
+                                      
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/a48189f9-45a4-4638-b576-375b628c3188)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/cabf92bd-e605-485a-b03f-95573c5738f2)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/ba239962-f603-40fe-89ae-178c58fa92bc)
