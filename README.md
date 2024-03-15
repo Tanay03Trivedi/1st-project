@@ -46,8 +46,8 @@ connect the private ip host and deploy webserver
 
 
 
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/7afefd69-43cb-470d-a42c-c90fe4992f99)
 
+                                       Step -1 VPC configuration
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/ba508f46-dfc6-4115-b56f-2eb753fb798a)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/f253d28f-ef6a-4e16-af5e-2efac26ea85d)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/edde81c7-4ed4-49fe-97ca-a9cbfb6792dd)
