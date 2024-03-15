@@ -85,9 +85,13 @@ connect the private IP host and deploy webserver
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5bdaa519-d5f0-459b-8e4c-fc872ae117e6)
 
                                       Group size
+- can change after also
+![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5ff62dd5-3aa9-4176-87e0-5eb5c371dcff)
+
+![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/7a535c27-67c4-4c7d-9ef2-ddb877374f01)
+
                                       
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/a48189f9-45a4-4638-b576-375b628c3188)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/cabf92bd-e605-485a-b03f-95573c5738f2)
+
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/ba239962-f603-40fe-89ae-178c58fa92bc)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/61099dd3-bef7-4d2c-bb24-4d6da1c56893)
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/1e1e5dfd-ef79-464e-9d51-88ae1d70cbdb)
