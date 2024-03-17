@@ -1,3 +1,4 @@
+# VPC-Project
 ![Untitled](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5b7a4b59-14e8-469f-9454-55535587b7ac)
 
 # Step – 1 
@@ -94,9 +95,12 @@ copy dns name and test for replay from both web server
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/61099dd3-bef7-4d2c-bb24-4d6da1c56893)
 
 ##  Wait for instance creation by auto-scaling group
- 
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/1e1e5dfd-ef79-464e-9d51-88ae1d70cbdb)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/837d5639-7010-4ba4-80a1-586ec9d3bd71)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/d4d66054-48ec-46ee-8748-772cb06ae57f)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/8907d44a-0dbb-414f-ba59-8f919aa93fae)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/bac1e009-c902-4eb8-9b17-b96c91420408)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/3061d36f-3542-4397-8d57-6df68adfee49)
+
+
 
 ## Create 2 bastion hosts per availability zone
                                       
@@ -123,11 +127,10 @@ sudo –I
 - echo “hello from $(hostname)” > /var/www/html/index.html
 - curl localhost  
 	#same on the second subnet instance
-   
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/17b6d301-0e09-45f1-8b32-2da7be5cd20d)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/05e26778-6939-4149-a68c-a2dcb7dcbffb)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/ed2284fd-f0b3-4d3f-a13f-b0425cbfc1c1)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/446fe9f2-c3d1-4d83-83a1-c07a5b777fef)
+
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/2549a870-2ef1-4216-9fea-50664a8e9154)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/a1227d70-3b42-4393-a09d-9ef6f128ed06)
+
 
 ## Register the auto-scaling instance in the load balancer
 
@@ -136,7 +139,9 @@ sudo –I
 
 
 ## Copy dns name of the load balancer and search (for results)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/c02da625-cf9e-46fd-b45e-b38924cd3922)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/fb2bb03d-4ff7-4aa5-a09f-2d868c0da6f2)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/281a5cd7-1226-41a7-bfb3-0a254dc2f717)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/b1f2f119-8cac-42bf-a897-dc64f4fc7780)
 
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/61aac66d-02c4-4d26-bd39-6f7770386072)
+![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/ae3cbabb-b7da-4658-9c0a-c9ba79508129)
 
