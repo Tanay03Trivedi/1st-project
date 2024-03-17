@@ -111,7 +111,7 @@ copy dns name and test for replay from both web server
 ##  Wait for instance creation by auto-scaling group
 
 ![Screenshot 2024-03-18 043648](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/4869b518-b5ea-4b26-8516-fce97499a00b)
-![Screenshot 2024-03-18 043701](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/459d7553-9c56-4ef1-8198-7493878af786)
+
 ![Screenshot 2024-03-18 043713](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/47dd3108-1eb6-4082-813e-55e394d2d4ee)
 ![Screenshot 2024-03-18 043723](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/138fe33c-730d-41a3-8f36-4a803ec685c7)
 ![Screenshot 2024-03-18 043732](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/c1c4df37-464b-4646-8427-c90ab2c0bf7f)
