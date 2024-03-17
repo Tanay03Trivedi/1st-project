@@ -1,5 +1,6 @@
 # VPC-Project
-![Untitled](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5b7a4b59-14e8-469f-9454-55535587b7ac)
+
+![vpc project](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/57dafa0a-8016-49f0-b32d-f92674e3ac2e)
 
 # Step – 1 
 
