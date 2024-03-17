@@ -56,8 +56,10 @@ copy dns name and test for replay from both web server
 - 2 public subnets
 - 2 private subnets
 - 1 NAT gateway per availability zone
-- 1 Internet gateway                                      
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/82633785-bd2f-4ba3-b07b-b0d5d803cb6c)
+- 1 Internet gateway
+                                   
+![Screenshot 2024-03-18 043324](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/ffa0a3fd-fcb2-4a06-b9a8-3fb4d28eedc8)
+
 # The Routes will be as shown below
   - 1a public -> rtb-public -> Internet gateway
   - 1a private -> rtb-private-1a -> nat-gateway-1a
