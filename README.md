@@ -65,32 +65,43 @@ copy dns name and test for replay from both web server
   - 1a private -> rtb-private-1a -> nat-gateway-1a
   - 1b public -> rtb-public -> Internet gateway
   - 1b private -> rtb-private-1b -> nat-gateway-1b
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/159f4ea2-3921-410d-b2fc-7fda021123d2)
+    
+![Screenshot 2024-03-18 043344](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/f0edc2e0-5b03-4656-b150-2142d18cc42a)
+
 
 ## Create an auto-scaling group
  - create a launch template
  - need a security group for that
  - select the operating system
- - select the instance type   
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/d84847f9-4b41-4088-adc0-8fbca74f1604)
+ - select the instance type
+   
+![Screenshot 2024-03-18 043401](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/e9e4aa63-1c01-48d6-9c47-f4e245c5be44)
+![Screenshot 2024-03-18 043413](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/c3a32e15-ea20-4021-8e4d-13968af9a67d)
+![Screenshot 2024-03-18 043431](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/5a8f1063-5bd9-4994-bb13-f22a39852af5)
+![Screenshot 2024-03-18 043442](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/dedf45ff-4cb1-479e-91a7-eb6428c6a88b)
+![Screenshot 2024-03-18 043451](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/400a517b-5980-4ba5-ba46-e34f418fc9e1)
+![Screenshot 2024-03-18 043504](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/51ac0873-a642-460c-9d7a-bcb3b5bc1839)
+
 
 ## launch options
    - select the project vpc and 2 private subnets (private-1a,private-1b)
 
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/bd6062de-7089-4ac2-880d-81bc0549ea00)
+![Screenshot 2024-03-18 043521](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/8beb4b00-036b-44c6-b6a6-e4dc926b0fa2)
+
 
 ## A new load balancer
    - internet-facing
    - project vpc
    - 2 public subnets
                                   
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5bdaa519-d5f0-459b-8e4c-fc872ae117e6)
+![Screenshot 2024-03-18 043537](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/c7492178-4fa8-42bd-87f3-0deb950a4c7d)
+
 
 ##  Group size
 - can change after also
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/5ff62dd5-3aa9-4176-87e0-5eb5c371dcff)
+![Screenshot 2024-03-18 043545](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/d7a5f97b-16bc-4ded-8310-55a1f431bce3)
+![Screenshot 2024-03-18 043553](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/b154acbf-9152-4809-a90a-ae5f25796153)
 
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/7a535c27-67c4-4c7d-9ef2-ddb877374f01)
 
 ## Review page 
 
@@ -98,11 +109,12 @@ copy dns name and test for replay from both web server
 ![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/61099dd3-bef7-4d2c-bb24-4d6da1c56893)
 
 ##  Wait for instance creation by auto-scaling group
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/d4d66054-48ec-46ee-8748-772cb06ae57f)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/8907d44a-0dbb-414f-ba59-8f919aa93fae)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/bac1e009-c902-4eb8-9b17-b96c91420408)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/3061d36f-3542-4397-8d57-6df68adfee49)
 
+![Screenshot 2024-03-18 043648](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/4869b518-b5ea-4b26-8516-fce97499a00b)
+![Screenshot 2024-03-18 043701](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/459d7553-9c56-4ef1-8198-7493878af786)
+![Screenshot 2024-03-18 043713](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/47dd3108-1eb6-4082-813e-55e394d2d4ee)
+![Screenshot 2024-03-18 043723](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/138fe33c-730d-41a3-8f36-4a803ec685c7)
+![Screenshot 2024-03-18 043732](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/c1c4df37-464b-4646-8427-c90ab2c0bf7f)
 
 
 ## Create 2 bastion hosts per availability zone
@@ -131,20 +143,13 @@ sudo –I
 - curl localhost  
 	#same on the second subnet instance
 
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/2549a870-2ef1-4216-9fea-50664a8e9154)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/a1227d70-3b42-4393-a09d-9ef6f128ed06)
+![Screenshot 2024-03-18 043746](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/a92e2116-9291-4312-8526-c04728bc4dcd)
+![Screenshot 2024-03-18 043754](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/6e63334c-a929-467e-89c0-c05e1db2bc50)
 
-
-## Register the auto-scaling instance in the load balancer
-
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/4370c2f3-cf17-433c-91ec-6a086fc2af63)
-![image](https://github.com/Tanay03Trivedi/1st-project/assets/160705084/35b3b88e-52dc-48ef-bd58-2becea91b1ae)
 
 
 ## Copy dns name of the load balancer and search (for results)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/281a5cd7-1226-41a7-bfb3-0a254dc2f717)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/b1f2f119-8cac-42bf-a897-dc64f4fc7780)
-
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/61aac66d-02c4-4d26-bd39-6f7770386072)
-![image](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/ae3cbabb-b7da-4658-9c0a-c9ba79508129)
+![Screenshot 2024-03-18 043804](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/5df7ed0c-7568-4b1d-9be7-d2121bf5aa9d)
+![Screenshot 2024-03-18 043815](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/9c0c49c0-3a01-4f79-b8cd-419eee37af96)
+![Screenshot 2024-03-18 043828](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/95725cc0-3f19-4ab8-ac19-6b0623e22ba7)
 
