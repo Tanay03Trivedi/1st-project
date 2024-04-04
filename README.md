@@ -65,9 +65,8 @@ copy dns name and test for replay from both web server
   - 1a private -> rtb-private-1a -> nat-gateway-1a
   - 1b public -> rtb-public -> Internet gateway
   - 1b private -> rtb-private-1b -> nat-gateway-1b
-    
-![Screenshot 2024-03-18 043344](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/f0edc2e0-5b03-4656-b150-2142d18cc42a)
 
+![Screenshot 2024-04-04 152411](https://github.com/Tanay03Trivedi/VPC-project/assets/160705084/2cc37473-3611-4e37-b43a-79a546526d76)
 
 ## Create an auto-scaling group
  - create a launch template
